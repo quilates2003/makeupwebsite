@@ -1,0 +1,327 @@
+body {
+	background:#FBF6D9;
+	margin:0;
+}
+.navigation {
+	width:100%;
+	background:#493D26;
+	height:50px;
+	padding:0;
+}
+ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	position:absolute;
+}
+ul li {
+	float:left;
+}
+ul li a {
+	width:200px;
+	color:white;
+	display:block;
+	text-decoration:none;
+	font-size:15px;
+	text-align:center;
+	padding:10px;
+	font-family:Century Gothic;
+	font-weight:bold;
+	margin:5px;
+}
+a:hover {
+	background:#7F462C;
+}
+ul li ul {
+	background:#493D26;
+}
+ul li ul li {
+	float:none;
+}
+ul li ul {
+	display:none;
+}
+ul li:hover ul {
+	display:block;
+}
+
+
+
+h1 {
+	font-family:Ananda Black;
+	font-size:60px;
+	margin-bottom:0;
+	text-align:left;
+	margin-left:10px;
+	margin-top:10px;
+}
+#f {
+	margin-top:0;
+	text-align:left;
+	margin-left:10px;
+}
+
+
+.base {
+	display:grid;
+	grid-template-columns:repeat(7, 1fr);
+	grid-gap:15px;
+	height:60vh;
+	margin:10px 50px 50px 50px;
+}
+.base > div {
+	border:3px #7F462C solid;
+	color:#966F33;
+	border-radius:10px;
+}
+.baseproducts {
+	grid-column:6/8;
+	background:#7F462C;
+}
+h2 {
+	text-align:center;
+	font-family:Algerian;
+	font-weight:bold;
+}
+h3 {
+	text-align:center;
+	font-family:Monotype Corsiva;
+	font-weight:bold;
+	margin:10px;
+}
+#b {
+	color:white;
+}
+.primer {
+	background-image:url(../images/primer.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.funda {
+	background-image:url(../images/funda.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.concealer {
+	background-image:url(../images/conceal.jpeg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.powder {
+	background-image:url(../images/powder.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.blush {
+	background-image:url(../images/blush.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+p {
+	color:white;
+	margin:10px;
+}
+.diff {
+	color:black;
+}
+.mas {
+	color:white;
+}
+.iba {
+	margin-top:0px;
+}
+.naito {
+	margin-top:0px;
+}
+
+.sculp {
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-template-rows:repeat(2, 1fr);
+	grid-gap:15px;
+	height:60vh;
+	margin:50px;
+}
+.sculp > div {
+	border-radius:10px;
+	color:white;
+	text-align:center;
+	border:3px #6F4E37 solid;
+}
+.sculpting {
+	grid-row:1/3;
+	background:#6F4E37;
+}
+.high {
+	grid-column:2/4;
+	background-image:url(../images/high.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.bronzer {
+	background-image:url(../images/bronzer.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.contour {
+	background-image:url(../images/contour.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#s {
+	font-family:Algerian;
+}
+
+
+.twodivs {
+	display:grid;
+	grid-template-columns:repeat(2, 1fr);
+	grid-gap:40px;
+	height:60vh;
+	margin:50px;
+	font-family:Monotype Corsiva;
+}
+.lips {
+	display:grid;
+	grid-template-columns:repeat(2, 1fr);
+	grid-template-rows:repeat(3, 1fr);
+	grid-gap:10px;
+}
+.lips > div {
+	border-radius:10px;
+	color:#2B1B17;
+	border:3px #966F33 solid;
+}
+.lips1 {
+	grid-column:1/3;
+	background:#966F33;
+}
+.lipstick {
+	grid-row:2/4;
+	background-image:url(../images/lip.JPG);
+	background-size:cover;
+	background-position:top;
+	background-repeat:no-repeat;
+}
+.lipgloss {
+	grid-row:2/4;
+	background-image:url(../images/gloss.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#l {
+	font-family:Algerian;
+	color:white;
+	margin-bottom:0;
+}
+#ll {
+	font-family:Monotype Corsiva;
+}
+#lll {
+	font-family:Monotype Corsiva;
+}
+
+
+
+.eyes {
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-template-rows:repeat(3, 1fr);
+	grid-gap:15px;
+}
+.eyes > div {
+	border-radius:10px;
+	color:#2B1B17;
+	border:3px #966F33 solid;
+}
+.eyes1 {
+	grid-column:1/4;
+	background:#966F33;
+}
+.eyebase {
+	grid-row:2/4;
+	background-image:url(../images/base.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	
+}
+.pallete {
+	grid-row:2/4;
+	background-image:url(../images/pallete.jpg);
+	background-size:cover;
+	background-position:top;
+	background-repeat:no-repeat;
+}
+.liner {
+	grid-row:2/4;
+	background-image:url(../images/liner.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#e {
+	font-family:Algerian;
+	color:white;
+	margin-bottom:0;
+}
+
+
+
+.eyelashes {
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-gap:15px;
+	height:60vh;
+	margin:50px;
+}
+.eyelashes > div {
+	color:#2B1B17;
+}
+.lashes {
+	border-radius:10px;
+	border:3px #AF9B60 solid;
+	background:#AF9B60;
+}
+.curler {
+	border-radius:10px;
+	border:3px #AF9B60 solid;
+	background-image:url(../images/curler.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.mascara {
+	display:grid;
+	grid-template-rows:1fr 1fr;
+	grid-gap:10px;
+}
+.mascara > div {
+	border-radius:10px;
+	color:black;
+	border:3px #AF9B60 solid;
+}
+.mascara1 {
+	background-image:url(../images/mas.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.falsies {
+	background-image:url(../images/glue.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#eye {
+	font-family:Algerian;
+}

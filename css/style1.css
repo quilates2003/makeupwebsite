@@ -1,0 +1,102 @@
+body {
+	margin:0;
+}
+.navigation {
+	width:100%;
+	background:#493D26;
+	height:50px;
+}
+ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	position:absolute;
+}
+ul li {
+	float:left;
+}
+ul li a {
+	width:200px;
+	color:white;
+	display:block;
+	text-decoration:none;
+	font-size:15px;
+	text-align:center;
+	padding:10px;
+	font-family:Century Gothic;
+	font-weight:bold;
+	margin:5px;
+}
+a:hover {
+	background:#7F462C;
+}
+ul li ul {
+	background:#493D26;
+}
+ul li ul li {
+	float:none;
+}
+ul li ul {
+	display:none;
+}
+ul li:hover ul {
+	display:block;
+}
+.title {
+	display:grid;
+	grid-template-columns:5% 25% 70%;
+	height:30vh;
+	margin:5px;
+}
+.logo {
+	background-image:url(../images/logo.png);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.image {
+	background-image:url(../images/withpinkflower.jpg);
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:70vh;
+}
+
+h1 {
+	font-family:Ananda Black;
+	font-size:60px;
+	margin-bottom:0;
+	text-align:left;
+}
+h2 {
+	text-align:center;
+	color:white;
+}
+h3 {
+	margin-top:0;
+	text-align:left;
+	margin-left:200px;
+}
+p {
+	text-align:justify;
+	font-size:20px;
+	color:white;
+	text-indent:30px;
+}
+
+.article {
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-gap:15px;
+	height:85vh;
+	background:#966F33;
+}
+.article > div {
+	margin:20px;
+}
+.myfooter {
+	background:#493D26;
+	height:13vh;
+	color:white;
+	text-align:center;
+}
