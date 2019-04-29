@@ -125,6 +125,7 @@ h3 {
 p {
 	color:white;
 	margin:10px;
+	text-align:justify;
 }
 .diff {
 	color:black;
@@ -134,9 +135,11 @@ p {
 }
 .iba {
 	margin-top:0px;
+	text-align:center;
 }
 .naito {
 	margin-top:0px;
+	text-align:center;
 }
 
 .sculp {
